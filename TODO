@@ -1,7 +1,9 @@
 TODO
 ====
 2. Add support for creating of video from images.
-3.
+3. Support for duration in form 100ms, 1s
+4. Support for -v verbose mode.
+5.
 
 Applied
 =======
