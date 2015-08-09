@@ -1,0 +1,73 @@
+NAME
+    video-generator - Script to print or run of example from documentation.
+
+SYNOPSIS
+     video-generator [-d duration] [-f fps] [-h] [-s size] [--version] output_file
+
+DESCRIPTION
+     video-generator script uses Video::Generator class to create videos via ffmpeg.
+
+ARGUMENTS
+    *       "-d duration"
+
+             Duration.
+             Default value is 10000 (10s).
+
+    *       "-f fps"
+
+             Frame rate.
+             Default value is 60 frames per second.
+
+    *       "-h"
+
+             Print help.
+
+    *       "-s size"
+
+             Video size.
+             Default value is 1920x1080.
+
+    *       "--version"
+
+             Print version of script.
+
+    *       "output_file"
+
+             Output file.
+             e.g. foo.mpg
+             e.g. foo.mp4
+
+EXAMPLE1
+     video-generator
+ 
+     # Output:
+     Usage: video-generator [-d duration] [-f fps] [-h]
+             [-s size] [--version] output_file
+ 
+             -d duration     Duration (default value is 10000 (=10s)
+             -f fps          Frame rate
+             -h              Help.
+             -s size         Size (default value is 1920x1080).
+             --version       Print version.
+
+EXAMPLE2
+     video-generator foo.mpg
+
+EXAMPLE3
+     video-generator -s 100x100 foo.mp4
+
+REPOSITORY
+    <https://github.com/tupinek/App-Pod-Example>
+
+AUTHOR
+    Michal Špaček <mailto:skim@cpan.org>
+
+    <http://skim.cz>
+
+LICENSE AND COPYRIGHT
+     © 2015 Michal Špaček
+     BSD 2-Clause License
+
+VERSION
+    0.15
+
