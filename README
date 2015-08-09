@@ -39,7 +39,7 @@ ARGUMENTS
 
 EXAMPLE1
      video-generator
- 
+
      # Output:
      Usage: video-generator [-d duration] [-f fps] [-h]
              [-s size] [--version] output_file

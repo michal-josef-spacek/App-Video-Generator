@@ -75,7 +75,7 @@ video-generator - Script to print or run of example from documentation.
 =head1 EXAMPLE1
 
  video-generator
- 
+
  # Output:
  Usage: video-generator [-d duration] [-f fps] [-h]
          [-s size] [--version] output_file

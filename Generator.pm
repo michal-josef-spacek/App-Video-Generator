@@ -28,7 +28,7 @@ sub new {
 		'h' => 0,
 	};
 	if (! getopts('d:f:hs:', $self->{'_opts'}) || @ARGV < 1
-		|| $self->{'_opts'}->{'h'}) { 
+		|| $self->{'_opts'}->{'h'}) {
 
 		print STDERR "Usage: $0 [-d duration] [-f fps] [-h]\n\t".
 			"[-s size] [--version] output_file\n\n";
@@ -130,7 +130,7 @@ App::Video::Generator - Perl class for video-generator application.
  # Output:
  # Usage: /tmp/7b3GEofrss [-d duration] [-f fps] [-h]
  #         [-s size] --version output_file
- # 
+ #
  #         -d duration     Duration (default value is 10000 (=10s)
  #         -f fps          Frame rate
  #         -h              Help.
