@@ -1,5 +1,5 @@
 NAME
-    video-generator - Script to print or run of example from documentation.
+    video-generator - Script to generate video.
 
 SYNOPSIS
      video-generator [-d duration] [-f fps] [-h] [-s size] [--version] output_file

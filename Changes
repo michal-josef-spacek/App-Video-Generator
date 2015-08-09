@@ -1,5 +1,6 @@
 0.02
  - Add examples/ directory.
+ - Fix script description in doc.
  - Improve help.
 
 0.01 2015-08-09T11:30:04+02:00
