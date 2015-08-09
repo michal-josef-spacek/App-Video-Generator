@@ -1,5 +1,6 @@
 bin/video-generator
 Changes
+examples/ex1.pl
 Generator.pm
 inc/Module/Install.pm
 inc/Module/Install/Base.pm

@@ -23,6 +23,7 @@ meta-spec:
 name: App-Video-Generator
 no_index:
   directory:
+    - examples
     - inc
     - t
 requires:
