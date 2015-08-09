@@ -35,7 +35,7 @@ sub new {
 		print STDERR "\t-d duration\tDuration (default value is ".
 			"10000 (=10s)\n";
 		print STDERR "\t-f fps\t\tFrame rate\n";
-		print STDERR "\t-h\t\tHelp.\n";
+		print STDERR "\t-h\t\tPrint help.\n";
 		print STDERR "\t-s size\t\tSize (default value is ".
 			"1920x1080).\n";
 		print STDERR "\t--version\tPrint version.\n";
@@ -133,7 +133,7 @@ App::Video::Generator - Perl class for video-generator application.
  #
  #         -d duration     Duration (default value is 10000 (=10s)
  #         -f fps          Frame rate
- #         -h              Help.
+ #         -h              Print help.
  #         -s size         Size (default value is 1920x1080).
  #         --version       Print version.
 

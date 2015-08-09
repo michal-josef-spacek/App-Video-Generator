@@ -82,7 +82,7 @@ video-generator - Script to print or run of example from documentation.
  #
  #         -d duration     Duration (default value is 10000 (=10s)
  #         -f fps          Frame rate
- #         -h              Help.
+ #         -h              Print help.
  #         -s size         Size (default value is 1920x1080).
  #         --version       Print version.
 

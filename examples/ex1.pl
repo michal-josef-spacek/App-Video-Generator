@@ -16,6 +16,6 @@ App::Video::Generator->new->run;
 #
 #         -d duration     Duration (default value is 10000 (=10s)
 #         -f fps          Frame rate
-#         -h              Help.
+#         -h              Print help.
 #         -s size         Size (default value is 1920x1080).
 #         --version       Print version.
