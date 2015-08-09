@@ -41,20 +41,28 @@ EXAMPLE1
      video-generator
 
      # Output:
-     Usage: video-generator [-d duration] [-f fps] [-h]
-             [-s size] [--version] output_file
- 
-             -d duration     Duration (default value is 10000 (=10s)
-             -f fps          Frame rate
-             -h              Help.
-             -s size         Size (default value is 1920x1080).
-             --version       Print version.
+     # Usage: video-generator [-d duration] [-f fps] [-h]
+     #         [-s size] [--version] output_file
+     #
+     #         -d duration     Duration (default value is 10000 (=10s)
+     #         -f fps          Frame rate
+     #         -h              Help.
+     #         -s size         Size (default value is 1920x1080).
+     #         --version       Print version.
 
 EXAMPLE2
      video-generator foo.mpg
 
+     # Output:
+     # -nothing-
+     # Created foo.mpg file in local directory.
+
 EXAMPLE3
      video-generator -s 100x100 foo.mp4
+
+     # Output:
+     # -nothing-
+     # Created foo.mpg file in local directory.
 
 REPOSITORY
     <https://github.com/tupinek/App-Pod-Example>

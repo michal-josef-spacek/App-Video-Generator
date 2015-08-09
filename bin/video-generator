@@ -77,22 +77,30 @@ video-generator - Script to print or run of example from documentation.
  video-generator
 
  # Output:
- Usage: video-generator [-d duration] [-f fps] [-h]
-         [-s size] [--version] output_file
- 
-         -d duration     Duration (default value is 10000 (=10s)
-         -f fps          Frame rate
-         -h              Help.
-         -s size         Size (default value is 1920x1080).
-         --version       Print version.
+ # Usage: video-generator [-d duration] [-f fps] [-h]
+ #         [-s size] [--version] output_file
+ #
+ #         -d duration     Duration (default value is 10000 (=10s)
+ #         -f fps          Frame rate
+ #         -h              Help.
+ #         -s size         Size (default value is 1920x1080).
+ #         --version       Print version.
 
 =head1 EXAMPLE2
 
  video-generator foo.mpg
 
+ # Output:
+ # -nothing-
+ # Created foo.mpg file in local directory.
+
 =head1 EXAMPLE3
 
  video-generator -s 100x100 foo.mp4
+
+ # Output:
+ # -nothing-
+ # Created foo.mpg file in local directory.
 
 =head1 REPOSITORY
 
