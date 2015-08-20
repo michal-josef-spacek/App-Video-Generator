@@ -129,7 +129,7 @@ App::Video::Generator - Perl class for video-generator application.
 
  # Output:
  # Usage: /tmp/7b3GEofrss [-d duration] [-f fps] [-h]
- #         [-s size] --version output_file
+ #         [-s size] [--version] output_file
  #
  #         -d duration     Duration (default value is 10000 (=10s)
  #         -f fps          Frame rate
