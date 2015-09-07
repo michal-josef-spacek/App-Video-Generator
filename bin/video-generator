@@ -11,7 +11,7 @@ use App::Video::Generator;
 our $VERSION = 0.03;
 
 # Run.
-App::Video::Generator->new->run;
+exit App::Video::Generator->new->run;
 
 # Print version.
 sub VERSION_MESSAGE {

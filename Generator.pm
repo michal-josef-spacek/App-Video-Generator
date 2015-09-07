@@ -69,7 +69,7 @@ sub run {
 	if ($EVAL_ERROR) {
 		err 'Cannot create video.';
 	}
-	return;
+	return 0;
 }
 
 1;
