@@ -32,8 +32,8 @@ sub run {
 	$self->{'_opts'} = {
 		'd' => 10000,
 		'f' => 60,
-		's' => '1920x1080',
 		'h' => 0,
+		's' => '1920x1080',
 	};
 	if (! getopts('d:f:hs:', $self->{'_opts'}) || @ARGV < 1
 		|| $self->{'_opts'}->{'h'}) {

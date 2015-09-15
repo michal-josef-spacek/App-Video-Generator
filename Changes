@@ -3,6 +3,7 @@
  - Add test for constructor.
  - Move argument processing to run() method.
  - Remove obsolete code from Generator.pm.
+ - Sort argument default values.
 
 0.02 2015-08-20T08:51:16+02:00
  - Add examples/ directory.
