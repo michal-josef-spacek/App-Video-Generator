@@ -20,6 +20,14 @@ sub new {
 	# Create object.
 	my $self = bless {}, $class;
 
+	# Object.
+	return $self;
+}
+
+# Run script.
+sub run {
+	my $self = shift;
+
 	# Process arguments.
 	$self->{'_opts'} = {
 		'd' => 10000,
@@ -50,13 +58,7 @@ sub new {
 	$self->{'_width'} = $1;
 	$self->{'_height'} = $2;
 
-	# Object.
-	return $self;
-}
-
-# Run script.
-sub run {
-	my $self = shift;
+	# Run.
 	eval {
 		my $vg = Video::Generator->new(
 			'duration' => $self->{'_opts'}->{'d'},
