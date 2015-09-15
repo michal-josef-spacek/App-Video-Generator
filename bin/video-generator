@@ -31,7 +31,7 @@ video-generator - Script to generate video.
 
 =head1 SYNOPSIS
 
- video-generator [-d duration] [-f fps] [-h] [-s size] [--version] output_file
+ video-generator [-d duration] [-f fps] [-h] [-s size] [-v] [--version] output_file
 
 =head1 DESCRIPTION
 
@@ -60,6 +60,10 @@ video-generator - Script to generate video.
  Video size.
  Default value is 1920x1080.
 
+=item * C<-v>
+
+ Verbose mode.
+
 =item * C<--version>
 
  Print version of script.
@@ -78,12 +82,13 @@ video-generator - Script to generate video.
 
  # Output:
  # Usage: video-generator [-d duration] [-f fps] [-h]
- #         [-s size] [--version] output_file
+ #         [-s size] [-v] [--version] output_file
  #
  #         -d duration     Duration (default value is 10000 (=10s)
  #         -f fps          Frame rate
  #         -h              Print help.
  #         -s size         Size (default value is 1920x1080).
+ #         -v              Verbose mode.
  #         --version       Print version.
 
 =head1 EXAMPLE2

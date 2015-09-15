@@ -1,4 +1,5 @@
 0.04
+ - Fix man page of video-generator script.
 
 0.03 2015-09-15T22:35:35+02:00
  - Add proper exit code.
