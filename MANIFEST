@@ -22,3 +22,4 @@ t/App-Video-Generator/00-use.t
 t/App-Video-Generator/01-version.t
 t/App-Video-Generator/02-pod_coverage.t
 t/App-Video-Generator/03-pod.t
+t/App-Video-Generator/04-new.t
