@@ -1,6 +1,7 @@
 0.03
  - Add proper exit code.
  - Add test for constructor.
+ - Add verbose mode (-v).
  - Move argument processing to run() method.
  - Remove obsolete code from Generator.pm.
  - Sort argument default values.

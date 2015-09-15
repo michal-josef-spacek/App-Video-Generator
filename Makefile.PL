@@ -15,7 +15,7 @@ readme_from 'bin/video-generator';
 requires 'English' => 0;
 requires 'Error::Pure' => 0.16;
 requires 'Getopt::Std' => 0;
-requires 'Video::Generator' => 0.03;
+requires 'Video::Generator' => 0.04;
 requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=App-Video-Generator';

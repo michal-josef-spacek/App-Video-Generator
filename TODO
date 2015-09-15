@@ -2,10 +2,12 @@ TODO
 ====
 2. Add support for creating of video from images.
 3. Support for duration in form 100ms, 1s
-4. Support for -v verbose mode.
 5.
 
 Applied
 =======
 1. Jednoducha aplikace pro generovani videa.
 OK [20150809] skim
+
+4. Support for -v verbose mode.
+OK [20150915] skim

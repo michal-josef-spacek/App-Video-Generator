@@ -34,18 +34,20 @@ sub run {
 		'f' => 60,
 		'h' => 0,
 		's' => '1920x1080',
+		'v' => 0,
 	};
-	if (! getopts('d:f:hs:', $self->{'_opts'}) || @ARGV < 1
+	if (! getopts('d:f:hs:v', $self->{'_opts'}) || @ARGV < 1
 		|| $self->{'_opts'}->{'h'}) {
 
 		print STDERR "Usage: $0 [-d duration] [-f fps] [-h]\n\t".
-			"[-s size] [--version] output_file\n\n";
+			"[-s size] [-v] [--version] output_file\n\n";
 		print STDERR "\t-d duration\tDuration (default value is ".
 			"10000 (=10s)\n";
 		print STDERR "\t-f fps\t\tFrame rate\n";
 		print STDERR "\t-h\t\tPrint help.\n";
 		print STDERR "\t-s size\t\tSize (default value is ".
 			"1920x1080).\n";
+		print STDERR "\t-v\t\tVerbose mode.\n";
 		print STDERR "\t--version\tPrint version.\n";
 		exit 1;
 	}
@@ -64,6 +66,7 @@ sub run {
 			'duration' => $self->{'_opts'}->{'d'},
 			'fps' => $self->{'_opts'}->{'f'},
 			'height' => $self->{'_height'},
+			'verbose' => $self->{'_opts'}->{'v'},
 			'width' => $self->{'_width'},
 		);
 		$vg->create($self->{'_output_file'});
