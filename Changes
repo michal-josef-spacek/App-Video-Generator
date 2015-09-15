@@ -1,3 +1,5 @@
+0.04
+
 0.03 2015-09-15T22:35:35+02:00
  - Add proper exit code.
  - Add test for constructor.
