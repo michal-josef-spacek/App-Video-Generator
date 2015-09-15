@@ -1,5 +1,6 @@
 0.03
  - Add proper exit code.
+ - Remove obsolete code from Generator.pm.
 
 0.02 2015-08-20T08:51:16+02:00
  - Add examples/ directory.

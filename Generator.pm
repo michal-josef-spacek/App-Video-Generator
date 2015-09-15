@@ -15,7 +15,7 @@ our $VERSION = 0.03;
 
 # Constructor.
 sub new {
-	my ($class, @params) = @_;
+	my $class = shift;
 
 	# Create object.
 	my $self = bless {}, $class;
