@@ -10,12 +10,13 @@ use App::Video::Generator;
 # Run.
 App::Video::Generator->new->run;
 
-# Output:
+# Output like:
 # Usage: /tmp/7b3GEofrss [-d duration] [-f fps] [-h]
-#         [-s size] [--version] output_file
+#         [-s size] [-v] [--version] output_file
 #
 #         -d duration     Duration (default value is 10000 (=10s)
 #         -f fps          Frame rate
 #         -h              Print help.
 #         -s size         Size (default value is 1920x1080).
+#         -v              Verbose mode.
 #         --version       Print version.

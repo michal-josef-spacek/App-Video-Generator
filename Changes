@@ -1,4 +1,5 @@
 0.04
+ - Fix output in EXAMPLE in doc.
  - Fix man page of video-generator script.
  - Move author tests to xt/ directory.
 
