@@ -3,6 +3,8 @@ Changes
 examples/ex1.pl
 Generator.pm
 inc/Module/Install.pm
+inc/Module/Install/AuthorRequires.pm
+inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
@@ -18,8 +20,8 @@ MANIFEST			This list of files
 META.yml
 README
 SIGNATURE
-t/App-Video-Generator/00-use.t
-t/App-Video-Generator/01-version.t
-t/App-Video-Generator/02-pod_coverage.t
-t/App-Video-Generator/03-pod.t
-t/App-Video-Generator/04-new.t
+t/App-Video-Generator/01-use.t
+t/App-Video-Generator/02-version.t
+t/App-Video-Generator/03-new.t
+xt/App-Video-Generator/01-pod_coverage.t
+xt/App-Video-Generator/02-pod.t

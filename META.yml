@@ -3,14 +3,10 @@ abstract: 'Script to generate video.'
 author:
   - 'Michal Spacek <skim@cpan.org>'
 build_requires:
-  English: 0
   Error::Pure::Utils: 0.16
   ExtUtils::MakeMaker: 6.36
-  File::Object: 0.05
   Test::More: 0
   Test::NoWarnings: 0
-  Test::Pod: 0
-  Test::Pod::Coverage: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.36
 distribution_type: module
@@ -26,6 +22,7 @@ no_index:
     - examples
     - inc
     - t
+    - xt
 requires:
   English: 0
   Error::Pure: 0.16
