@@ -3,6 +3,7 @@
  - Fix output in EXAMPLE in doc.
  - Fix man page of video-generator script.
  - Move author tests to xt/ directory.
+ - Remove obsolete dependency.
 
 0.03 2015-09-15T22:35:35+02:00
  - Add proper exit code.

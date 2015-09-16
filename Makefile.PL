@@ -26,7 +26,6 @@ resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=App-Video-Generator';
 resources 'homepage' => 'https://github.com/tupinek/App-Video-Generator';
 resources 'repository' => 'git://github.com/tupinek/App-Video-Generator';
-test_requires 'Error::Pure::Utils' => 0.16;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;

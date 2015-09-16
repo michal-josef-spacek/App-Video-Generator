@@ -3,7 +3,6 @@ abstract: 'Script to generate video.'
 author:
   - 'Michal Spacek <skim@cpan.org>'
 build_requires:
-  Error::Pure::Utils: 0.16
   ExtUtils::MakeMaker: 6.36
   Test::More: 0
   Test::NoWarnings: 0
