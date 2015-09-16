@@ -14,16 +14,18 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 47919b65579d8a31f9b2f4051531af639d7eadc6 Changes
-SHA1 9b0c18bd96ed3620e8df85a6d47712ef377181ff Generator.pm
+SHA1 e22780c2155c54dcee5202558fa351f44289e102 Changes
+SHA1 1a8a4fed4bce887fd17984b8fdc6d9a986069502 Generator.pm
 SHA1 fda23a0b314432c4a81e8d7beb5290e9f0219c73 LICENSE
-SHA1 3962cb496d3c1978ad9754aa2889cf1df52167d5 MANIFEST
-SHA1 30fa3f65d21e4168e2b4486344c50af20091fa20 META.yml
-SHA1 36517b5e7cba51735a509938d4f0ded720bba076 Makefile.PL
-SHA1 d8cac3535eb4e5fc679e0d5c406bc7a5a7cb4384 README
-SHA1 4d46ffafd676822350e775768c3f32733e3b0e76 bin/video-generator
-SHA1 5b699695725e4e6a55f4daed4f969278b4def764 examples/ex1.pl
+SHA1 42b6d07317986867dc1dd6a91e57308dd5edfabf MANIFEST
+SHA1 a49c121986ee738e05fbe096efe616d324140d1b META.yml
+SHA1 a0b3df0fd1ad4e18750cde0501c4ef2fa51894dd Makefile.PL
+SHA1 12800703ce4874a0f9e9737aa5bf9836a50f5ef8 README
+SHA1 2d0c3671cb546669134710c476b5f92707f2892e bin/video-generator
+SHA1 5858daa1da02795dceb45abe0a6aab5e31d24e88 examples/ex1.pl
 SHA1 bce3c51bb369419603298064b78e14077b93af66 inc/Module/Install.pm
+SHA1 5c1a9d3a384a5262cbc105ab76d446047904c7fa inc/Module/Install/AuthorRequires.pm
+SHA1 d001b4b9a48395a8c4134b234a0e1789138427c5 inc/Module/Install/AuthorTests.pm
 SHA1 fe220f215f645500ce8f14ff5e19d9a28692af56 inc/Module/Install/Base.pm
 SHA1 b56ed8e42c600e08007d152cf0b1438a7c3b7f6e inc/Module/Install/Can.pm
 SHA1 99c531a17a67ce5250df2ae151cc48c80d914cde inc/Module/Install/Fetch.pm
@@ -33,19 +35,19 @@ SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.p
 SHA1 01978a56e76a58399af3bd4d022aa990b9669bee inc/Module/Install/Scripts.pm
 SHA1 c830b819e61bda5eca077c6291293bba61b3b9f2 inc/Module/Install/Win32.pm
 SHA1 cb52b9d6f88d512d448a6f35ed0af0d1201a134b inc/Module/Install/WriteAll.pm
-SHA1 bb438527ea2ec6f80d6ec63c201c4a953c66b77f t/App-Video-Generator/00-use.t
-SHA1 2973ddba4a01e8a80df5f38185537fabc5f8efda t/App-Video-Generator/01-version.t
-SHA1 79ee218773d1e0a9619bd4838bb29b64daf65428 t/App-Video-Generator/02-pod_coverage.t
-SHA1 82efecc33032f9d49c450c4d97c1dd7cfc188bbb t/App-Video-Generator/03-pod.t
-SHA1 ed1eb88d3bb48fcbb9747ff58e8550591bd9c780 t/App-Video-Generator/04-new.t
+SHA1 bb438527ea2ec6f80d6ec63c201c4a953c66b77f t/App-Video-Generator/01-use.t
+SHA1 92db808083fc40503481123944622548d452daac t/App-Video-Generator/02-version.t
+SHA1 ed1eb88d3bb48fcbb9747ff58e8550591bd9c780 t/App-Video-Generator/03-new.t
+SHA1 79ee218773d1e0a9619bd4838bb29b64daf65428 xt/App-Video-Generator/01-pod_coverage.t
+SHA1 82efecc33032f9d49c450c4d97c1dd7cfc188bbb xt/App-Video-Generator/02-pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJV+IEYAAoJEJe+XXKaIuTlkJwH/0jlceZa5hOyPfaa+euru28Y
-Jt1m3ujgAzilWPN+b/1XswldofPKX+x3WMUp++uu+48/VMfjORfaT3HVNfxtyr50
-MT0T1XkL3HhY6gB9ehF/09wnV9dJ952Td8zUIzvr8gxoPvv3yVyOz9Fv10ymMKtU
-mrJyAWsErBU+EkwcTg+Q+yBgP/3QmxxLxvo00uppTFxyYNVoMrPsKUdwKU0G0AIQ
-JjwzgA3HMnVaZHx6vaJWqcHhA4oqL0aIZdhQpl7APgMrGGJN1/EhujLYexo2S6rd
-PjSRgWxsHEXc9dSiXJzoy0LADLQ5bax33e27orD63GPaEaM3jxKxOs5kJpyotqE=
-=RKEI
+iQEcBAEBAgAGBQJV+TarAAoJEJe+XXKaIuTl/iwIAIxi3glvS6fPzauTFFHVhEHl
+XaDDPbLsYCb5DK5Ha9GysXsfw0/XDB0SVBnd28WSxD9L49EkLycoo5jeO4VNiBTn
+bYQjSqnJSvhSFlj260CV3Ht6pYLMvTc2w/B1xzOeIFzClA67eNvKQIyFkxdQvjck
+kgIWGIgB3Cz9InMw7ix/vzlNLpJpnvrlMDUcTtDVx3VLmKyQf95pOOViX8RbN6K+
+oJ/8HZCnfC3xUH4kOYhNCwaQBaopAUo8DnjsA58G+1zLn3QpwYke+5fK0KZp/p11
+/wjSJ6hd38Dc2+8cYOMPnq2oVO1ce+i4SyIhtW+0wnoO5zYRC089bIW2A2FBofM=
+=1+kF
 -----END PGP SIGNATURE-----

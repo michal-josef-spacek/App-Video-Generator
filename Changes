@@ -1,4 +1,4 @@
-0.04
+0.04 2015-09-16T11:30:18+02:00
  - Add support for ms/s suffix in -d argument.
  - Fix output in EXAMPLE in doc.
  - Fix man page of video-generator script.
