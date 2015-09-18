@@ -42,7 +42,7 @@ sub run {
 		print STDERR "Usage: $0 [-d duration] [-f fps] [-h]\n\t".
 			"[-s size] [-v] [--version] output_file\n\n";
 		print STDERR "\t-d duration\tDuration in numeric value or ".
-			"with ms/s suffix\n\t\t\t(default value is 10000 ".
+			"with ms/s/min/h suffix\n\t\t\t(default value is 10000 ".
 			"[=10s]).\n";
 		print STDERR "\t-f fps\t\tFrame rate\n";
 		print STDERR "\t-h\t\tPrint help.\n";
@@ -137,7 +137,7 @@ App::Video::Generator - Perl class for video-generator application.
  # Usage: /tmp/7b3GEofrss [-d duration] [-f fps] [-h]
  #         [-s size] [-v] [--version] output_file
  #
- #         -d duration     Duration in numeric value or with ms/s suffix
+ #         -d duration     Duration in numeric value or with ms/s/min/h suffix
  #                         (default value is 10000 [=10s]).
  #         -f fps          Frame rate
  #         -h              Print help.

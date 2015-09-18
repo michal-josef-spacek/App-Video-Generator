@@ -20,7 +20,7 @@ recursive_author_tests('xt');
 requires 'English' => 0;
 requires 'Error::Pure' => 0.16;
 requires 'Getopt::Std' => 0;
-requires 'Video::Generator' => 0.05;
+requires 'Video::Generator' => 0.06;
 requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=App-Video-Generator';
