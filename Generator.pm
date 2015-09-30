@@ -42,8 +42,8 @@ sub run {
 		print STDERR "Usage: $0 [-d duration] [-f fps] [-h]\n\t".
 			"[-s size] [-v] [--version] output_file\n\n";
 		print STDERR "\t-d duration\tDuration in numeric value or ".
-			"with ms/s/min/h suffix\n\t\t\t(default value is 10000 ".
-			"[=10s]).\n";
+			"with ms/s/min/h suffix\n\t\t\t(default value is ".
+			"10000 [=10s]).\n";
 		print STDERR "\t-f fps\t\tFrame rate\n";
 		print STDERR "\t-h\t\tPrint help.\n";
 		print STDERR "\t-s size\t\tSize (default value is ".
