@@ -1,4 +1,5 @@
 0.06
+ - Add support for generating of video from image files.
  - Fix number of chars on line (80).
  - Fix EXAMPLE3 in bin/video-generator doc.
 

@@ -1,6 +1,5 @@
 TODO
 ====
-2. Add support for creating of video from images.
 5.
 
 Applied
@@ -14,3 +13,6 @@ OK [20150915] skim
 3. Support for duration in form 100ms, 1s
    Je to vec Video::Pattern.
 OK [20150916] skim
+
+2. Add support for creating of video from images.
+OK [20150930] skim

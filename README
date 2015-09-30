@@ -2,7 +2,7 @@ NAME
     video-generator - Script to generate video.
 
 SYNOPSIS
-     video-generator [-d duration] [-f fps] [-h] [-s size] [-v] [--version] output_file
+     video-generator [-d duration] [-f fps] [-h] [-i input_dir] [-s size] [-v] [--version] output_file
 
 DESCRIPTION
      video-generator script uses Video::Generator class to create videos via ffmpeg.
@@ -21,6 +21,11 @@ ARGUMENTS
     *       "-h"
 
              Print help.
+
+    *       "-i input_dir"
+
+             Input directory with images.
+             Default value is nothing, then generates random images.
 
     *       "-s size"
 
@@ -46,11 +51,12 @@ EXAMPLE1
 
      # Output:
      # Usage: video-generator [-d duration] [-f fps] [-h]
-     #         [-s size] [-v] [--version] output_file
+     #         [-i input_dir] [-s size] [-v] [--version] output_file
      #
      #         -d duration     Duration (default value is 10000 (=10s)
      #         -f fps          Frame rate
      #         -h              Print help.
+     #         -i input_dir    Input directory with images (default value is nothing).
      #         -s size         Size (default value is 1920x1080).
      #         -v              Verbose mode.
      #         --version       Print version.
@@ -68,6 +74,13 @@ EXAMPLE3
      # Output:
      # -nothing-
      # Created foo.mp4 file in local directory.
+
+EXAMPLE4
+     video-generator -i /data/images/ foo.mpg
+
+     # Output:
+     # -nothing-
+     # Created foo.mpg file in local directory, generated from images in /data/images.
 
 REPOSITORY
     <https://github.com/tupinek/App-Video-Generator>

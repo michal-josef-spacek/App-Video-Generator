@@ -8,7 +8,12 @@ use warnings;
 use English;
 use Error::Pure qw(err);
 use Getopt::Std;
+use Image::Select;
+use Readonly;
 use Video::Generator;
+
+# Constants.
+Readonly::Scalar our $EMPTY_STR => q{};
 
 # Version.
 our $VERSION = 0.06;
@@ -33,19 +38,23 @@ sub run {
 		'd' => 10000,
 		'f' => 60,
 		'h' => 0,
+		'i' => $EMPTY_STR,
 		's' => '1920x1080',
 		'v' => 0,
 	};
-	if (! getopts('d:f:hs:v', $self->{'_opts'}) || @ARGV < 1
+	if (! getopts('d:f:hi:s:v', $self->{'_opts'}) || @ARGV < 1
 		|| $self->{'_opts'}->{'h'}) {
 
 		print STDERR "Usage: $0 [-d duration] [-f fps] [-h]\n\t".
-			"[-s size] [-v] [--version] output_file\n\n";
+			"[-i input_dir] [-s size] [-v] [--version] ".
+			"output_file\n\n";
 		print STDERR "\t-d duration\tDuration in numeric value or ".
 			"with ms/s/min/h suffix\n\t\t\t(default value is ".
 			"10000 [=10s]).\n";
 		print STDERR "\t-f fps\t\tFrame rate\n";
 		print STDERR "\t-h\t\tPrint help.\n";
+		print STDERR "\t-i input_dir\tInput directory with ".
+			"images (default value is nothing).\n";
 		print STDERR "\t-s size\t\tSize (default value is ".
 			"1920x1080).\n";
 		print STDERR "\t-v\t\tVerbose mode.\n";
@@ -63,10 +72,20 @@ sub run {
 
 	# Run.
 	eval {
+		# Images from directory.
+		my $image_generator;
+		if ($self->{'_opts'}->{'i'} ne $EMPTY_STR) {
+			$image_generator = Image::Select->new(
+				'debug' => ($self->{'_opts'}->{'v'} ? 1 : 0),
+				'path_to_images' => $self->{'_opts'}->{'i'},
+			);
+		}
+
 		my $vg = Video::Generator->new(
 			'duration' => $self->{'_opts'}->{'d'},
 			'fps' => $self->{'_opts'}->{'f'},
 			'height' => $self->{'_height'},
+			'image_generator' => $image_generator,
 			'verbose' => $self->{'_opts'}->{'v'},
 			'width' => $self->{'_width'},
 		);
@@ -135,12 +154,13 @@ App::Video::Generator - Perl class for video-generator application.
 
  # Output like:
  # Usage: /tmp/7b3GEofrss [-d duration] [-f fps] [-h]
- #         [-s size] [-v] [--version] output_file
+ #         [-i input_dir] [-s size] [-v] [--version] output_file
  #
  #         -d duration     Duration in numeric value or with ms/s/min/h suffix
  #                         (default value is 10000 [=10s]).
  #         -f fps          Frame rate
  #         -h              Print help.
+ #         -i input_dir    Input directory with images (default value is nothing).
  #         -s size         Size (default value is 1920x1080).
  #         -v              Verbose mode.
  #         --version       Print version.
@@ -150,6 +170,8 @@ App::Video::Generator - Perl class for video-generator application.
 L<English>,
 L<Error::Pure>,
 L<Getopt::Std>,
+L<Image::Select>,
+L<Readonly>,
 L<Video::Generator>.
 
 =head1 REPOSITORY
