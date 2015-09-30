@@ -1,5 +1,6 @@
 0.06
  - Fix number of chars on line (80).
+ - Fix EXAMPLE3 in bin/video-generator doc.
 
 0.05 2015-09-18T14:57:36+02:00
  - Add support for duration suffixes min (minute) and h (hour).
