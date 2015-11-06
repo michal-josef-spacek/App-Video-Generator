@@ -14,15 +14,15 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 64643f41c5857b1104b751e5a13eed16c6fbd011 Changes
-SHA1 9fb789845a6da352f30a114a2bfa969bc13b0a9b Generator.pm
+SHA1 57f8f6fe2e70e0cd6bbd5beeb9291d94da93aaf7 Changes
+SHA1 6f4e663edc9dbf49af0add43a8d41d24292bc61b Generator.pm
 SHA1 fda23a0b314432c4a81e8d7beb5290e9f0219c73 LICENSE
 SHA1 42b6d07317986867dc1dd6a91e57308dd5edfabf MANIFEST
-SHA1 9ab97157de6a91f331ef8f57e0330fbb330be4dd META.yml
-SHA1 dfa4db746e969f71d6e7b9aabb872d6b0a5ac5ab Makefile.PL
-SHA1 c1c9aa2dcae7320ffd446b958e943ea3d393ab2a README
-SHA1 efc454830a6ee8ba53d32aa9bbd0f12b7072b6d4 bin/video-generator
-SHA1 867f671bbcb059cf8c6cb0d5b9ab6039ab90bf22 examples/ex1.pl
+SHA1 03f66adb0183fdfe90a7760a84d12fb9ca8452ff META.yml
+SHA1 9357b1e0c619deecc16a9804be3439776a18b003 Makefile.PL
+SHA1 b1e1f3fdd9375116bb31134785fb8a00ed67bac0 README
+SHA1 4d7d88c1ff8be072315b0726964738a179f7f35f bin/video-generator
+SHA1 5b4315bd0c48b53a07f196ddc74778bf296c678e examples/ex1.pl
 SHA1 bce3c51bb369419603298064b78e14077b93af66 inc/Module/Install.pm
 SHA1 5c1a9d3a384a5262cbc105ab76d446047904c7fa inc/Module/Install/AuthorRequires.pm
 SHA1 d001b4b9a48395a8c4134b234a0e1789138427c5 inc/Module/Install/AuthorTests.pm
@@ -36,18 +36,18 @@ SHA1 01978a56e76a58399af3bd4d022aa990b9669bee inc/Module/Install/Scripts.pm
 SHA1 c830b819e61bda5eca077c6291293bba61b3b9f2 inc/Module/Install/Win32.pm
 SHA1 cb52b9d6f88d512d448a6f35ed0af0d1201a134b inc/Module/Install/WriteAll.pm
 SHA1 bb438527ea2ec6f80d6ec63c201c4a953c66b77f t/App-Video-Generator/01-use.t
-SHA1 0712501ad629e0b04fd0911936265e35fc8a65bb t/App-Video-Generator/02-version.t
+SHA1 ca188b9265b6ac412d17845061e69ea53822370a t/App-Video-Generator/02-version.t
 SHA1 ed1eb88d3bb48fcbb9747ff58e8550591bd9c780 t/App-Video-Generator/03-new.t
 SHA1 79ee218773d1e0a9619bd4838bb29b64daf65428 xt/App-Video-Generator/01-pod_coverage.t
 SHA1 82efecc33032f9d49c450c4d97c1dd7cfc188bbb xt/App-Video-Generator/02-pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWC/03AAoJEJe+XXKaIuTlSp4H/0bxzH6BqChEDG9zitziU1op
-n/69O1r3+pnKgCSqVhDyd7kiB5KF5vQ0ZkcGkdhZMnxTpqthS8bdkt+Txn4F0oY+
-xjftple8LYcYPezH8PCt6Q+hcl/ZvI4lt2mDuxfBDcPFzchc9BsXZm4wTnr/fX5F
-svu8k9oM1oIYFP+F9VeTrDGKNX0TQAs+k0c6B0ZU4Ju6pvw34DqcI0TZsfK54UZQ
-qrL+xQfe7fPDt1V4vgmyX2IW0jGfkazNqioL+LNYpHtiI02Ynn9x/kcI/wUgZTWM
-bQ8xizLDUe8qGB5husZq9pKsLxIa6maNBnIyz9kZWmPY2ujYF7nI+Yjn/u8BRjE=
-=TYXZ
+iQEcBAEBAgAGBQJWPJaIAAoJEJe+XXKaIuTlcRkH/0lNrmx8pcdDdR/8JrKOTnwJ
+cMlpXXoLeKO+9Wlw8ssNBdzFL540+dbqrFJQK00PXsRbTOjIn/LuH9V1AUQCjGqV
+8cYKsyAvN7INN2X5rhWe+MnqyKRuqDjftZpCujJEdUnSjHSDbG5kiK5KVaLyivwP
+Y8GVPgPhSYdbr7z1ek/+D18i7p0fV0LpeztC+UGbkBIlcahc6q23B8YyOnbEFizm
+3yTHRmJT1fXxnHrFVQiRPSVk4pCzb3PZmEk0daUaaOIdp6Ll2EAoONav0fd/OENB
+RQBPXxbDyYn8ljX8chLCtsghzm1ASdBXlYxiuxp6lqe7rzdNjeRKyRILjro0gqs=
+=obLN
 -----END PGP SIGNATURE-----
