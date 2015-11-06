@@ -77,7 +77,9 @@ sub run {
 		if ($self->{'_opts'}->{'i'} ne $EMPTY_STR) {
 			$image_generator = Image::Select->new(
 				'debug' => ($self->{'_opts'}->{'v'} ? 1 : 0),
+				'height' => $self->{'_height'},
 				'path_to_images' => $self->{'_opts'}->{'i'},
+				'width' => $self->{'_width'},
 			);
 		}
 
