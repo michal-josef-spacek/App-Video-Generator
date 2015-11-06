@@ -16,7 +16,7 @@ use Video::Generator;
 Readonly::Scalar our $EMPTY_STR => q{};
 
 # Version.
-our $VERSION = 0.07;
+our $VERSION = 0.08;
 
 # Constructor.
 sub new {
@@ -193,6 +193,6 @@ L<http://skim.cz>
 
 =head1 VERSION
 
-0.07
+0.08
 
 =cut
