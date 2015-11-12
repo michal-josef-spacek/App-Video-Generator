@@ -176,6 +176,16 @@ L<Image::Select>,
 L<Readonly>,
 L<Video::Generator>.
 
+=head1 SEE ALSO
+
+=over
+
+=item L<App::Image::Generator>
+
+Perl class for image-generator application.
+
+=back
+
 =head1 REPOSITORY
 
 L<https://github.com/tupinek/App-Video-Generator>.
