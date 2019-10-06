@@ -1,10 +1,8 @@
 package App::Video::Generator;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use English;
 use Error::Pure qw(err);
 use Getopt::Std;
@@ -15,7 +13,6 @@ use Video::Generator;
 # Constants.
 Readonly::Scalar our $EMPTY_STR => q{};
 
-# Version.
 our $VERSION = 0.08;
 
 # Constructor.
@@ -144,11 +141,9 @@ App::Video::Generator - Perl class for video-generator application.
 
 =head1 EXAMPLE
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use App::Video::Generator;
 
  # Run.

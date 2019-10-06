@@ -1,13 +1,10 @@
 #!/usr/bin/env perl
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use App::Video::Generator;
 
-# Version.
 our $VERSION = 0.08;
 
 # Run.
