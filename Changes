@@ -1,5 +1,6 @@
 0.08
  - Add App::Image::Generator to SEE ALSO section in doc.
+ - Fix Makefile.PL fails with no '.' in @INC.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Improve SYNOPSIS secion in doc.
  - Update Module::Install to 1.19 version.
