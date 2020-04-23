@@ -111,6 +111,7 @@ App::Video::Generator - Perl class for video-generator application.
 =head1 SYNOPSIS
 
  use App::Video::Generator;
+
  my $obj = App::Video::Generator->new;
  $obj->run;
 
