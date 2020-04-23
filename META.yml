@@ -32,7 +32,7 @@ requires:
   perl: 5.6.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=App-Video-Generator
-  homepage: https://github.com/tupinek/App-Video-Generator
+  homepage: https://github.com/michal-josef-spacek/App-Video-Generator
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/tupinek/App-Video-Generator
+  repository: git://github.com/michal-josef-spacek/App-Video-Generator
 version: '0.08'
