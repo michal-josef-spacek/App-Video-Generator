@@ -29,7 +29,7 @@ resources 'repository' => 'git://github.com/michal-josef-spacek/App-Video-Genera
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;
-version '0.09';
+version '0.10';
 
 # Run.
 WriteAll();
